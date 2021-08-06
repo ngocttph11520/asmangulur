@@ -1,0 +1,27 @@
+<a href="javascript:;" class="btn btn-success" routerLink="/admin/tac-gia/new">Thêm Tác Giả</a>
+<div class="row">
+
+    <div class="col-3 offset-9">
+        <input type="text" class="form-control" [(ngModel)]="filterObject.keyword" (keyup)="search()" placeholder="Tìm kiếm...">
+    </div>
+</div>
+
+<br>
+<table class="table table-striped">
+    <thead>
+        <th>#</th>
+        <th>Tên tác giả</th>
+        <th>Số sách sáng tác</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let a of authors; index as i">
+            <td>{{i+1}}</td>
+            <td>{{a.name | titlecase}}</td>
+            <td>{{a.books.length}}</td>
+            <td>
+                <a href="javascript:;" class="btn btn-info" routerLink="/admin/tac-gia/edit/{{a.id}}">Sửa</a>
+                <a href="javascript:;" class="btn btn-danger" (click)="removeId(a)">Xóa</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

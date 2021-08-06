@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sách tư duy "
+    },
+    {
+      "id": 2,
+      "name": "Sách bói toán"
+    },
+    {
+      "id": 3,
+      "name": "Sách kỹ năng sống "
+    },
+    {
+      "name": "Sách đời sống - xã hội",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Sách đời sống - xã hội  "
+    },
+    {
+      "id": 6,
+      "name": "Sach yeu thuong"
+    },
+    {
+      "name": "sach hay",
+      "id": 7
+    }
+  ],
+  "books": [
+    {
+      "id": 2,
+      "title": "Thay Đổi Cuộc Sống Với Nhân Số Học",
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/15/11/f8/56b303e000cb42faada663569fc5d7c9.jpg",
+      "price": "145000",
+      "categoryId": "2",
+      "authorId": "2"
+    },
+    {
+      "id": 3,
+      "title": "Bạn Chỉ Cần Sống Tốt Thôi",
+      "price": 89000,
+      "categoryId": 4,
+      "authorId": 3,
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/58/5c/ff/6a0dee9e33582f80c2c72b5ba6425202.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Thoát Khỏi Bẫy Cảm Xúc",
+      "price": 165000,
+      "categoryId": 3,
+      "authorId": 4,
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/c4/fb/64/d6e81b18ed4cef4fdda21aa1a6dc7db4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Cẩm Nang Mua Bán Đất",
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/44/03/b1/f797420579b8e0f5c84a1278d23053ec.jpg",
+      "price": 150000,
+      "categoryId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 6,
+      "title": "Thay Đổi Cuộc Sống Với Nhân Số Học",
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/15/11/f8/56b303e000cb42faada663569fc5d7c9.jpg",
+      "price": 155800,
+      "categoryId": 2,
+      "authorId": 2
+    },
+    {
+      "id": 7,
+      "title": "Bạn Chỉ Cần Sống Tốt Thôi",
+      "price": 89000,
+      "categoryId": 4,
+      "authorId": 3,
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/58/5c/ff/6a0dee9e33582f80c2c72b5ba6425202.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Thoát Khỏi Bẫy Cảm Xúc",
+      "price": 165000,
+      "categoryId": 3,
+      "authorId": 4,
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/c4/fb/64/d6e81b18ed4cef4fdda21aa1a6dc7db4.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Sức mạnh tiềm thức",
+      "price": 114000,
+      "categoryId": 5,
+      "authorId": 5,
+      "image": "https://salt.tikicdn.com/cache/w444/ts/product/29/f2/ff/08bbb9b3b96e525bd05b246cf14d47e9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Ngoc1234",
+      "image": "https://firebasestorage.googleapis.com/v0/b/feebooks-36c05.appspot.com/o/Uploads%2F1628037968271-z2395604732950_8df08072d3f13390682b631726eaa728.jpg?alt=media&token=cb38924b-22e9-490c-b113-f12708a5117f",
+      "price": "1234567",
+      "categoryId": "4",
+      "authorId": "2"
+    },
+    {
+      "id": 11,
+      "title": "Ngocciusmi",
+      "image": "https://firebasestorage.googleapis.com/v0/b/feebooks-36c05.appspot.com/o/Uploads%2F1628038063480-bnn.jpg?alt=media&token=305c3151-f28d-46dd-bb41-5042f1612c39",
+      "price": "122344",
+      "categoryId": "3",
+      "authorId": "5"
+    },
+    {
+      "id": 12,
+      "title": "Sach moi123",
+      "price": "129000",
+      "categoryId": "6",
+      "authorId": "1"
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Đỗ Đăng Khoa "
+    },
+    {
+      "id": 2,
+      "name": "Lê Đỗ Quỳnh Hương"
+    },
+    {
+      "id": 3,
+      "name": "Kotoha Yao"
+    },
+    {
+      "id": 4,
+      "name": "Daniel Rutley"
+    },
+    {
+      "id": 5,
+      "name": "Joseph Murphyc"
+    }
+  ]
+}

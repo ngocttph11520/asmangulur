@@ -1,0 +1,27 @@
+<a href="javascript:;" class="btn btn-success" routerLink="/admin/danh-muc/new">Thêm Danh Mục</a>
+<div class="row">
+
+    <div class="col-3 offset-9">
+        <input type="text" class="form-control" [(ngModel)]="filterObject.keyword" (keyup)="search()" placeholder="Tìm kiếm...">
+    </div>
+</div>
+
+<br>
+<table class="table table-striped">
+    <thead>
+        <th>#</th>
+        <th>Tên danh mục</th>
+        <th>Số sách</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let c of cates; index as i">
+            <td>{{i+1}}</td>
+            <td>{{c.name | titlecase}}</td>
+            <td>{{c.books.length}}</td>
+            <td>
+                <a href="javascript:;" class="btn btn-info" routerLink="/admin/danh-muc/edit/{{c.id}}">Sửa</a>
+                <a href="javascript:;" class="btn btn-danger" (click)="removeId(c)">Xóa</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

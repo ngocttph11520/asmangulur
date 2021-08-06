@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<body>
+    <div class="container">
+
+        <p>hero list!</p>
+        <div class="row">
+            <div class="col-6">
+                <hero-form (submitForm)="saveFormSubmit($event)" [formObject]="updateObject">
+                </hero-form>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+
+            <div class="col-3" *ngFor="let hero of heroes">
+                <hero-unit (updateEvent)="updateHero($event)" (delete)="parentRemove($event)" [heroData]="hero"></hero-unit>
+            </div>
+        </div><br>
+        <p>monster list!</p>
+        <div class="row">
+            <div class="col-6">
+                <monster-form (submitForm2)="saveFormSubmit2($event)" [formObject2]="updateObject2">
+                </monster-form>
+            </div><br>
+            <div class="row">
+                <div class="col-3" *ngFor="let monster of monsteres">
+                    <monster-unit (updateEvent)="updateMonster($event)" (delete)="parentRemove2($event)" [monsterData]="monster"></monster-unit>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
